@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MergerPDF</title>
+  <link rel="stylesheet" href="index.css" charset="utf-8">
+  </head>
+  <body>
+
+    <div class="container">
+
+        <div class="headerbox">
+            <div class="header-title">
+              <img src="./assets/icon.png" alt="icone nassau">
+              <h2>MERGER</h2> <h2 id="titleword2">PDF</h2>
+            </div>
+            
+            <div class="btn-window">
+
+              <button id="src-files" class="btn-select">Selecione PDFs</button>
+            
+              <button id="merger-files" class="btn-mesclar">Mesclar</button>
+              
+            </div>
+        </div>
+        
+        <div id="files-area" class="area-files">
+          <p id="ptemporary">Aguardando PDFs ...</p>
+          <p id="src-file-names"></p><br><br>
+        </div>
+        
+        <div id="loading-area" class="loading" style="display: none;">
+          <img src="./assets/loading.gif" alt="tela de loading">
+          <p class="title-loading">Mesclando Arquivos...</p>
+        </div>
+        
+        
+        
+
+    </div>
+
+    <script src="sweetalert2.all.min.js"></script>
+    <script type="text/javascript" src="./render.js"></script>
+  </body>
+</html>

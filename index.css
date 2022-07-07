@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+body{
+  background-color: #E9E9E9;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Salsa', cursive;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  flex: 1;
+}
+.headerbox {
+  width: 100vw;
+  height: 110px;
+  display: flex;
+  background: rgba(255, 255, 255, 0.4);
+  border: 1px solid #F3F3F3;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-title {
+  padding: 15px 25px;
+  height: 100%;
+  display: flex;
+  opacity: 1;
+  justify-content: center;
+  align-items: center;
+
+}
+.header-title img{
+  width: 49px;
+  height: 64px;
+  margin-right: 10px;
+}
+.header-title h2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 43px;
+  color: #484848;
+  text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.35);
+  margin-right: 5px;
+}
+#titleword2 {
+  color: #736cc7; 
+}
+.btn-window{
+  width: 380px;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  height: 100%;
+}
+button{
+  outline: none;
+  color: #FFFFFF;
+  opacity: 0.9;
+  font-family: 'Salsa';
+  font-style: normal;
+  font-weight: 400;
+  border-radius: 8px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.btn-select{
+  width: 158px;
+  height: 37px;
+  background: #736CC7;  
+  font-size: 20px;
+  transition: all 0.2s linear;
+}
+.btn-select:hover {
+  background: #555092;
+  opacity: 1;
+  box-shadow: 0px 0px 25px 10px rgba(115, 108, 199, 0.15);
+  cursor: pointer;
+}
+.btn-mesclar{
+  width: 143px;
+  height: 51px;
+  background: #D83135;
+  font-size: 22px;
+  transition: all 0.2s linear;
+}
+.btn-mesclar:hover {
+  background: #c02c2e;
+  opacity: 1;
+  box-shadow: 0px 0px 25px 10px rgba(216, 49, 53, 0.15);
+  cursor: pointer;
+}
+.area-files {
+  display: flex;
+  margin-top: 60px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  justify-content: center;
+  width: 70%;
+  height: 80%;
+  background: rgba(255, 255, 255, 0.4);
+  border: 1px solid #DAD9D9;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+.area-files p{
+  color: #000000;
+  font-family: 'Salsa';
+  font-style: bold;
+  font-weight: 400;
+}
+#ptemporary{
+  margin-top: 10px;
+  color: #484848;
+  opacity: 0.6;
+}
+.loading {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  position: absolute;
+  width: 100vw;
+  height:100vh;
+  background: #000000;
+  opacity: 0.85;
+  justify-content: center;
+  align-items: center;
+}
+.loading img{
+  width: 60px;
+  height: 60px;
+  margin-bottom: 20px;
+}
+.title-loading{
+  font-family: 'Salsa';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+
