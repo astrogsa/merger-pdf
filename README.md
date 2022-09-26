@@ -3,23 +3,27 @@ A desktop application built in Javascript with the aim of merging multiple PDF f
 The application is built using the Electron library to make the application cross-platform.
 
 The main function of the application which is to merge PDFs is powered by the npm easy-pdf-merge module and
-the code for the npm module can be found here(https://github.com/karuppiah7890/easy-pdf-merge).
+the code for the npm module can be <a href="https://github.com/karuppiah7890/easy-pdf-merge">found here </a>
 
 
 ## Installation
 Copy the files from the repository, and paste them in a folder of your choice. Access the folder via terminal (command prompt) and run the command:
 
+```
 npm install
 or
 yarn install
+```
 
 
 ## Usage
 Navigate to the project folder using the terminal (command prompt), and run the command below:
 
+```
 yarn start
 or
 electron .
+```
 
 
 ## Similar libraries
